@@ -1,0 +1,43 @@
+.btnControl {
+  display: flex;
+  justify-content: space-between;
+  max-width: 540px;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  border-top: 1px solid #F0F0F5;
+  padding-top: 24px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 14px;
+  /* border: 1px solid red; */
+}
+
+.btnBare {
+  height: 46px;
+  padding: 14px 38px;
+  border-radius: 8px;
+}
+
+.btnBare::before {
+  content: "⟵";
+  margin-right: 12px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.btnPrimary {
+  height: 46px;
+  padding: 14px 38px;
+  background: #F67599;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btnPrimary::after {
+  content: "⟶";
+  margin-left: 12px;
+  align-items: center;
+  font-size: 16px;
+}

@@ -1,0 +1,104 @@
+.formRow select {
+  -webkit-appearance: none;
+  cursor: pointer;
+  width: 100%;
+  min-width: 100px;
+  background-color: transparent;
+}
+
+.formRow select,
+.formRow input {
+  border: 1px solid #AFB1BD;
+  border-radius: 5px;
+  font-size: 5px;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.formRow select:hover,
+.formRow input:hover,
+.formRow select:focus,
+.formRow input:focus {
+  border-color: #4a4a4a;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #808080;
+}
+
+.formTitle{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.selectWrapper {
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.selectWrapper::after {
+  content: "";
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #AFB1BD transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translatey(-50%);
+  z-index: -1;
+}
+
+.formContainer {
+  height: 288px;
+  max-width: 540px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  margin-top: 24px;
+}
+
+.stepOneGrid {
+  height: 100%;
+  grid-template-areas:
+    "title name name name"
+    "phone phone email email"
+    "city address address address"
+}
+
+#title {
+  grid-area: title;
+}
+
+#name {
+  grid-area: name;
+}
+
+#phone {
+  grid-area: phone;
+}
+
+#email {
+  grid-area: email;
+}
+
+#city {
+  grid-area: city;
+}
+
+#address {
+  grid-area: address;
+}
+ 

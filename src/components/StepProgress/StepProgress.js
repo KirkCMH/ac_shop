@@ -1,9 +1,9 @@
 import styles from './StepProgress.module.css'
 
 // Step component
-function Step({ active, text, label }) {
+function Step({ active, done, text, label }) {
   return (
-    <div className={styles.progress} active={active}>
+    <div className={styles.progress} active={active} done={done}>
       <div className={styles.circleContainer}>
         <span className={styles.content}>{text}</span></div>
       <div className={styles.labelContainer}>{label}</div>
@@ -12,13 +12,13 @@ function Step({ active, text, label }) {
 }
 
 // Progress Bar component
-function ProgressBar({ className , right , left }) {
+function ProgressBar({ className, right, left }) {
   return (
-    <span 
+    <span
       className={className}
       style={{
-        right:  right ,
-        left: left
+        right: right,
+        left: left,
       }}
     ></span>
   );
@@ -35,7 +35,7 @@ export default function ProgressStep() {
           label="寄送地址"
         />
         <ProgressBar className={styles.connectLine} left="25%" />
-        
+
         <Step
           active="false"
           text="2"
