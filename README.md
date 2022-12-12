@@ -1,9 +1,20 @@
-### `npm start`
+# Alpha Shop - React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 開發工具
+Node.js 14.18.1 \
+React.js
+module.css
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 使用說明
+1. 在終端機將本專案 clone 到本機電腦 
+`git clone https://github.com/KirkCMH/ac_shop.git`
+2. 確認本機已安裝 node.js 與 npm
+在終端機輸入`npm install`
+3. 執行本專案
+在終端機輸入`npm start`
+4. 在瀏覽器輸入 `http://localhost:3000` 瀏覽本專案
 
-### `npm run build`
+### ALPHA Shop I - 實作結帳區 (三個步驟的表單)
+
+![alpha-shop1](./src/img/alpha_shap.jpg)
+
