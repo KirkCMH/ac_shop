@@ -67,9 +67,15 @@ button {
 }
 
 /* basic settings */
-body{
+body {
   max-width: 1110px;
   margin: 0 auto;
   padding-top: 140px;
   position: relative;
+}
+
+.cartPanel {
+  position: absolute;
+  right: 0;
+  top: 226px;
 }

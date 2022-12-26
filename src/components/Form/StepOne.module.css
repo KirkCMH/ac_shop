@@ -1,5 +1,4 @@
 .formRow select {
-  -webkit-appearance: none;
   cursor: pointer;
   width: 100%;
   min-width: 100px;
@@ -30,7 +29,7 @@ label {
   color: #808080;
 }
 
-.formTitle{
+.formTitle {
   font-size: 24px;
   font-weight: 700;
 }
@@ -101,4 +100,3 @@ label {
 #address {
   grid-area: address;
 }
- 
