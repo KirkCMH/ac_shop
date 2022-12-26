@@ -14,5 +14,5 @@ module.css
 
 ### ALPHA Shop I - 實作結帳區 (三個步驟的表單)
 
-![alpha-shop1](./src/img/alpha_shap.jpg)
+![alpha-shop1](./src/img/Cart.png)
 
